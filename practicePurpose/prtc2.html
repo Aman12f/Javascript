@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <div class="parent" style="background-color: #212121;color: white;">
+        <div class="day">Monday</div>
+        <div class="day">Tuseday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    // const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children[1].innerHTML);
+    // console.log(parent.children[1].nextElementSibling);
+    // console.log(parent.children[1].nextElementSibling.setAttribute("id","fuckYou"));
+    // console.log(parent.children[1].nextElementSibling.parentElement)
+    // const  text= document.createTextNode("hii this is text node")
+    // console.log("parent with appended node",parent.appendChild(text));
+    
+    const parent = document.querySelector('.parent')
+    console.log(parent);
+    const child = document.createTextNode("fuck you dadu")
+    parent.appendChild(child);
+
+
+</script>
+</html>
