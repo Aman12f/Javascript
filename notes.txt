@@ -1,0 +1,4 @@
+settimeout and setinterval are asynchronous funcition 
+by the way javascript is synchronous 
+JSON FORMATTER WEBSITE is also there 
+Javascript is wrapped by v8 engine 
